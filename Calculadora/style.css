@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(124, 124, 124);
+}
+
+main{
+    background-color: rgb(44, 44, 43);
+    display: inline-block;
+    border: 5px solid rgb(12, 12, 12);
+    box-shadow: 2px 2px 13px 5px rgba(0, 0, 0, 0.466);
+    width: 355px;
+    height: 510px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 9px;
+}
+
+h1{
+    padding: 9px 0px 9px 0px;
+    color: white;
+    text-align: center;
+}
+
+main #Resultado {
+    border-radius: 9px 9px 0px 0px;
+    border: 2px solid #fff;
+    font-size: 25px;
+    padding: 27px;
+    height: 30px;
+    color: white;
+    margin-bottom: 3px;
+}
+
+
+main .btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+main #fileira-1 .bnt{
+    height: 60px;
+    background-color: rgb(231, 126, 40)
+}
+main .bnt.operador{
+    width: 65px;
+    background-color: rgb(231, 126, 40)
+}
+main .bnt{
+    margin: 2px 3px 2px 3px;
+    width: 88px;
+    height: 88px;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
